@@ -1,0 +1,8 @@
+c:\users\z580\documents\visual studio 2015\Projects\FriendCloud\ChatHost\bin\Debug\ChatHost.exe.config
+c:\users\z580\documents\visual studio 2015\Projects\FriendCloud\ChatHost\bin\Debug\ChatHost.exe
+c:\users\z580\documents\visual studio 2015\Projects\FriendCloud\ChatHost\bin\Debug\ChatHost.pdb
+c:\users\z580\documents\visual studio 2015\Projects\FriendCloud\ChatHost\bin\Debug\FriendCloud.dll
+c:\users\z580\documents\visual studio 2015\Projects\FriendCloud\ChatHost\bin\Debug\FriendCloud.pdb
+c:\users\z580\documents\visual studio 2015\Projects\FriendCloud\ChatHost\obj\Debug\ChatHost.csprojResolveAssemblyReference.cache
+c:\users\z580\documents\visual studio 2015\Projects\FriendCloud\ChatHost\obj\Debug\ChatHost.exe
+c:\users\z580\documents\visual studio 2015\Projects\FriendCloud\ChatHost\obj\Debug\ChatHost.pdb

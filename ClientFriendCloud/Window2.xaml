@@ -1,0 +1,16 @@
+﻿<Window x:Class="ClientFriendCloud.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClientFriendCloud"
+        mc:Ignorable="d"
+        Title="Window2" Height="380" Width="500" Loaded="Window_Loaded" ResizeMode="NoResize" >
+    <Window.Background>
+        <ImageBrush x:Name="Author"  Stretch="Fill" TileMode="None" />
+    </Window.Background>
+    <Grid>
+        <Button x:Name="button" Content="Ок" HorizontalAlignment="Left" Margin="197,295,0,0" VerticalAlignment="Top" Width="75" Style="{StaticResource buttonStyle}" Click="button_Click"/>
+
+    </Grid>
+</Window>

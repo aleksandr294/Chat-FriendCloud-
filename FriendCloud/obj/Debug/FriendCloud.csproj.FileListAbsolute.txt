@@ -1,0 +1,6 @@
+c:\users\z580\documents\visual studio 2015\Projects\FriendCloud\FriendCloud\bin\Debug\FriendCloud.dll.config
+c:\users\z580\documents\visual studio 2015\Projects\FriendCloud\FriendCloud\bin\Debug\FriendCloud.dll
+c:\users\z580\documents\visual studio 2015\Projects\FriendCloud\FriendCloud\bin\Debug\FriendCloud.pdb
+c:\users\z580\documents\visual studio 2015\Projects\FriendCloud\FriendCloud\obj\Debug\FriendCloud.csprojResolveAssemblyReference.cache
+c:\users\z580\documents\visual studio 2015\Projects\FriendCloud\FriendCloud\obj\Debug\FriendCloud.dll
+c:\users\z580\documents\visual studio 2015\Projects\FriendCloud\FriendCloud\obj\Debug\FriendCloud.pdb

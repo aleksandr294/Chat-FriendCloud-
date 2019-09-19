@@ -1,0 +1,89 @@
+﻿<Window x:Class="ClientFriendCloud.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClientFriendCloud"
+        
+        xmlns:hamburgerMenu="clr-namespace:HamburgerMenu;assembly=HamburgerMenu"
+        mc:Ignorable="d"
+        Title="Window1" Height="535" Width="845" ResizeMode="NoResize" Loaded="Window_Loaded" Closing="Window_Closing">
+    <Window.Background>
+        <ImageBrush x:Name="content"  Stretch="Fill" TileMode="None" />
+    </Window.Background>
+    <Grid>
+
+
+
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+
+
+
+
+
+
+        <Grid Grid.ColumnSpan="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="240"/>
+                <ColumnDefinition Width="180"/>
+                <ColumnDefinition Width="180"/>
+                <ColumnDefinition Width="180"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="1" Background="#4682B4"  >
+
+                <TextBox Name="TB" Style="{StaticResource textBox}" Margin="0 12 0 0" />
+
+            </StackPanel>
+            <Button Name="entrance" Grid.Column="2" Style="{StaticResource buttonStyle}" Click="entrance_Click">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="&#xE77B;" Style="{StaticResource textBlocIcon}"/>
+                    <TextBlock Name="TextBloc" Text="Вхід"/>
+
+                </StackPanel>
+            </Button>
+            <Button Name="author" Grid.Column="3" Style="{StaticResource buttonStyle}" Click="author_Click">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock/>
+                    <TextBlock Text="Про Автора"/>
+
+                </StackPanel>
+            </Button>
+            <Button Name="Exit" Grid.Column="4" Style="{StaticResource buttonStyle}" Click="Exit_Click_1">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="&#xE10A;" Style="{StaticResource textBlocIcon}"/>
+                    <TextBlock Text="Вихід"/>
+
+                </StackPanel>
+            </Button>
+        </Grid>
+
+
+
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="250" Margin="296,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="520" Style="{StaticResource lb}"/>
+        <TextBox x:Name="textBox"  HorizontalAlignment="Left" Height="45" Margin="296,390,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="417" Style="{StaticResource tb}"/>
+        <Button x:Name="Send"  HorizontalAlignment="Left" Margin="718,390,0,0" Grid.Row="1" VerticalAlignment="Top" Width="98" RenderTransformOrigin="-0.04,0.424" Click="button_Click" Height="41" Style="{StaticResource send}" >
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="&#xE725;" Style="{StaticResource textBlocIcon}"/>
+                <TextBlock Text="Відправити"/>
+
+            </StackPanel>
+        </Button>
+        <hamburgerMenu:HamburgerMenu  Background="Gray" MenuIconColor="White" SelectionIndicatorColor="White" MenuItemForeground="White" HorizontalAlignment="Left" Grid.RowSpan="2"  Margin="0 0 0 0"   >
+            <hamburgerMenu:HamburgerMenuItem Text="Тема 1" Selected="HamburgerMenuItem_Selected" />
+            <hamburgerMenu:HamburgerMenuItem Text="Тема 2" Selected="HamburgerMenuItem_Selected_1"/>
+            <hamburgerMenu:HamburgerMenuItem Text="Тема 3" Selected="HamburgerMenuItem_Selected_2"/>
+        </hamburgerMenu:HamburgerMenu>
+
+
+
+    </Grid>
+
+</Window>

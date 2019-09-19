@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3ed388ff-73e6-4c0c-b202-3332bc22563d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8302" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServiceChat.wsdl" MetadataType="Wsdl" ID="f630225f-1ba6-4fa9-aca4-eea28cc0f086" SourceId="1" SourceUrl="http://localhost:8302/?wsdl" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="7a12622b-2454-44a5-a646-a101254bcf99" SourceId="1" SourceUrl="http://localhost:8302/?xsd=xsd1" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="df9d9f21-43f9-4a4d-867c-8908cd13f1c3" SourceId="1" SourceUrl="http://localhost:8302/?disco" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="e7bc85f0-46ef-4504-b97e-9727301df272" SourceId="1" SourceUrl="http://localhost:8302/?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
